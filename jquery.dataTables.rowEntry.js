@@ -1,8 +1,10 @@
-/** jquery.dataTables.rowEntry.js
+/**
+ * jquery.dataTables.rowEntry.js
  *
- * a custom jQuery / dataTables widget for the NIDA Discovery Project
+ * a custom jQuery / dataTables widget for adding and deleting rows
  *
- * author: rfreedman@chariotsolutions.com for Emmes Corp. http://www.emmes.com
+ * author: Rich Freedman
+ * git repo: https://github.com/rfreedman/RowEntry
  *
  */
 
