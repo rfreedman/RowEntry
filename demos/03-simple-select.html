@@ -3,16 +3,20 @@
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/themes/base/jquery-ui.css" type="text/css" media="all" /> 
 	<link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<title>RowEntry Simple Text With Radio Button Demo</title>
+	<title>RowEntry Simple Select Demo</title>
 </head>
 <body>
 <h1>RowEntry DataTable Plugin</h1>
-<h2>Simple Text With Radio Button Demo</h2>
+<h2>Simple Select Demo</h2>
 
 <p>
-This demo shows a simple usage of RowEntry - adding rows to a DataTable with a text entry and a radio button.
+This demo shows using RowEntry to provide a select list of items that can be added to the table.
+</p>
+<p>
+Notice that items that are in the table are disabled in the select list. When they are deleted from the table,
+they are re-enabled in the select list.
 <ul>
-<li>Type some text into the text field, and then click the green 'add' icon to add the text to the table</li>
+<li>Select an item from the select list, and then click the green 'add' icon to add the item to the table</li>
 <li>Click the red 'delete' icon next to a row to delete the row</li>
 </ul>
 </p>
@@ -23,7 +27,6 @@ This demo shows a simple usage of RowEntry - adding rows to a DataTable with a t
 <script src="js/jquery-1.5.2.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/jquery.dataTables.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../jquery.dataTables.rowEntry.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/dataTableRenderer.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/02-text-with-radiobutton.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/03-simple-select.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
