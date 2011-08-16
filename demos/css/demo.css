@@ -1,0 +1,47 @@
+table.demo {
+	width:500px;
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+table.demo th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: lightgray;
+	-moz-border-radius: ;
+}
+table.demo td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+
+.addEntryButton {
+	background-image: url('images/add.png');
+	width:16px;
+	height:16px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.deleteEntryButton {
+	background-image: url('images/delete.png');
+	width:16px;
+	height:16px;
+	margin-left:7px;
+}
+
+.rowEntryInput {
+	width:455px;
+	margin-right:10px;
+}
