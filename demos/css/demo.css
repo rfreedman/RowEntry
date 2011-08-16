@@ -26,6 +26,10 @@ table.demo td {
 	-moz-border-radius: ;
 }
 
+table.demo td.center {
+	text-align:center;
+}
+
 .addEntryButton {
 	background-image: url('images/add.png');
 	width:16px;
