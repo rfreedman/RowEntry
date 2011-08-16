@@ -1,3 +1,9 @@
+body {
+	font-family:sans-serif;
+	font-size:12px;
+	line-height:1.5;
+}
+
 table.demo {
 	width:500px;
 	border-width: 1px;
@@ -16,6 +22,7 @@ table.demo th {
 	border-color: gray;
 	background-color: lightgray;
 	-moz-border-radius: ;
+	font-size:12px;
 }
 table.demo td {
 	border-width: 1px;
@@ -24,6 +31,7 @@ table.demo td {
 	border-color: gray;
 	background-color: white;
 	-moz-border-radius: ;
+	font-size:12px;
 }
 
 table.demo td.center {
@@ -46,7 +54,7 @@ table.demo td.center {
 }
 
 .rowEntryInput {
-	width:450px;
+	width:444px;
 	margin-right:14px;
 }
 
