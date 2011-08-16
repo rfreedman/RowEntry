@@ -4,5 +4,6 @@ RowEntry is a plug-in (meta-plug-in ?) for the excellent DataTables jQuery plugi
 It provides a very flexible interface for adding rows to the table and deleting rows from the table.
 
 ## Usage
-TBD
+See examples at http://greybeardedgeek.net/jquery/RowEntry
+
 
