@@ -38,10 +38,14 @@ table.demo td {
 	background-image: url('images/delete.png');
 	width:16px;
 	height:16px;
-	margin-left:7px;
+	margin-left:10px;
 }
 
 .rowEntryInput {
-	width:455px;
-	margin-right:10px;
+	width:450px;
+	margin-right:14px;
+}
+
+.dataTables_wrapper .ui-toolbar {
+	border:none;
 }
